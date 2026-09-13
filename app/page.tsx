@@ -5,7 +5,16 @@ export default function Home() {
     <div className="container">
       <main>
         <section className="hero">
-          <h1>Shannon Tai</h1>
+          <div className="name-row">
+            <img
+              className="ice-cream"
+              src="/ice-cream.svg"
+              alt="Ice cream cone"
+              width={72}
+              height={72}
+            />
+            <h1 className="name">Shannon Tai</h1>
+          </div>
           <p className="tagline">Electrical Engineering major at UH Manoa</p>
         </section>
 
