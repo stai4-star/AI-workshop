@@ -1,0 +1,48 @@
+.wrap {
+  min-height: 100vh;
+  background-color: #ffd0d7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.25rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 440px;
+  background-color: #ffffff;
+  border: 3px solid #e75480;
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(231, 84, 128, 0.18);
+}
+
+.title {
+  margin: 0 0 0.75rem;
+  color: #e75480;
+  font-size: 2rem;
+}
+
+.email {
+  margin: 0 0 1.75rem;
+  color: #000000;
+  font-size: 1.05rem;
+  word-break: break-all;
+}
+
+.logout {
+  padding: 0.7rem 1.5rem;
+  border: 2px solid #e75480;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #e75480;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.logout:hover {
+  background-color: #e75480;
+  color: #ffffff;
+}
