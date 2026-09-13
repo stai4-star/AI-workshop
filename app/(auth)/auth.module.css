@@ -1,0 +1,94 @@
+.wrap {
+  min-height: 100vh;
+  background-color: #ffd0d7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.25rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 380px;
+  background-color: #ffffff;
+  border: 3px solid #e75480;
+  border-radius: 16px;
+  padding: 2rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 30px rgba(231, 84, 128, 0.18);
+}
+
+.title {
+  margin: 0 0 1.5rem;
+  color: #e75480;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.label {
+  color: #000000;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.input {
+  margin-bottom: 1.1rem;
+  padding: 0.65rem 0.75rem;
+  border: 2px solid #e75480;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #000000;
+}
+
+.button {
+  margin-top: 0.25rem;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #e75480;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #d43d6c;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.error {
+  margin: 0 0 1rem;
+  color: #d10000;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.switch {
+  margin: 1.25rem 0 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #000000;
+}
+
+.link {
+  color: #e75480;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
